@@ -1,4 +1,3 @@
-
 public class Findtwice {
     public class ArrayAssignment {
     public static boolean duplicateArray(int arr[]){
@@ -15,7 +14,5 @@ public class Findtwice {
         int arr[] = {1, 1, 1, 3, 3, 4, 3, 2, 4, 2};
         System.out.println(duplicateArray(arr));
     }
-}
-
-    
+  }
 }
