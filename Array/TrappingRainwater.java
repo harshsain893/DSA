@@ -1,24 +1,25 @@
+package Array;
 public class TrappingRainwater{
     public static int TrappingRainwater(int height[]) {
-        int l = 0, r = height.length - 1;
+        int left = 0, right = height.length - 1;
         int leftmax = 0, rightmax = 0;
         int water = 0;
 
-        while (l < r) {
-            if (height[l] <= height[r]) {
-                if (height[l] >= leftmax) {
-                    leftmax = height[l];
+        while (left < right) {
+            if (height[left] <= height[right]) {
+                if (height[left] >= leftmax) {
+                    leftmax = height[left];
                 } else {
-                    water += leftmax - height[l];
+                    water += leftmax - height[left];
                 }
-                l++;
+                left++;
              } else {
-                if (height[r] >= rightmax) {
-                    rightmax = height[r];
+                if (height[right] >= rightmax) {
+                    rightmax = height[right];
                 } else {
-                    water += rightmax - height[r];
+                    water += rightmax - height[right];
                 }
-                r--;
+                right--;
              }
         }   
         return water;
