@@ -1,6 +1,5 @@
 package Array;
 public class FindLargest {
-
     // In this code we have to find the largest number and the smallest in the given array
     public static int largestValue(int number[]){
         int largest = Integer.MIN_VALUE;
