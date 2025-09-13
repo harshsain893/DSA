@@ -8,7 +8,7 @@ public class FindLargest {
             if (number[i] > largest){
                 largest = number[i];
             }
-            if (number[i]<smallest){
+            if (number[i] < smallest){
                 smallest = number[i];
                 System.out.println("Smallest value is: "+smallest);
             }
