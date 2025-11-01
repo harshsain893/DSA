@@ -21,7 +21,7 @@ public class longestCommonPrefix {
             }
         }
 
-        // Return the longest common prefix found
+        // Return the longest common prefix 
         return prefix;
     }
 }
