@@ -32,7 +32,7 @@ public class outermostParentheses {
             }
         }
 
-        // Return the final string after removing outermost parentheses
+        // Return the final string after removing outermost
         return result.toString();
     }
 }
