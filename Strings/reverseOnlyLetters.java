@@ -33,7 +33,7 @@ public class reverseOnlyLetters {
             }
         }
 
-        // Convert the modified character array back to a string and return it
+        // Convert the modified character array back to a string and return
         return new String(arr);
     }
 }
